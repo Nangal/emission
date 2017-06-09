@@ -1,5 +1,5 @@
 import * as React from "react"
-import * as Relay from "react-relay"
+import * as Relay from "react-relay/classic"
 
 import { ListView, ListViewDataSource, ScrollView } from "react-native"
 import { LargeHeadline } from "../typography"

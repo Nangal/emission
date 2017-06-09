@@ -1,4 +1,4 @@
-import * as Relay from "react-relay"
+import * as Relay from "react-relay/classic"
 import Artwork from "../artwork"
 import InfiniteScrollArtworksGrid, { PageSize } from "../infinite_scroll_grid"
 
