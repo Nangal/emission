@@ -2881,7 +2881,7 @@ type PartnerCategory {
     #
     #         Only return partners of the specified partner categories.
     #         Accepts list of slugs.
-    #       
+    #
     partner_categories: [String]
     size: Int
     sort: PartnersSortType
@@ -3357,7 +3357,7 @@ type RootQueryType {
     #
     #         Only return partners of the specified partner categories.
     #         Accepts list of slugs.
-    #       
+    #
     partner_categories: [String]
     size: Int
     sort: PartnersSortType
@@ -3497,7 +3497,7 @@ type RootQueryType {
     #
     #         Only return partners of the specified partner categories.
     #         Accepts list of slugs.
-    #       
+    #
     partner_categories: [String]
     size: Int
     sort: PartnersSortType
@@ -4210,7 +4210,7 @@ type Viewer {
     #
     #         Only return partners of the specified partner categories.
     #         Accepts list of slugs.
-    #       
+    #
     partner_categories: [String]
     size: Int
     sort: PartnersSortType
@@ -4350,7 +4350,7 @@ type Viewer {
     #
     #         Only return partners of the specified partner categories.
     #         Accepts list of slugs.
-    #       
+    #
     partner_categories: [String]
     size: Int
     sort: PartnersSortType
