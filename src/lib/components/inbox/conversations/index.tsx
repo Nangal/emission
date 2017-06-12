@@ -1,7 +1,7 @@
 import * as React from "react"
 import * as Relay from "react-relay"
 
-import { ListView, ListViewDataSource, ScrollView } from "react-native"
+import { ListView, ListViewDataSource, View } from "react-native"
 import { LargeHeadline } from "../typography"
 
 import ConversationSnippet from "./conversation_snippet"
@@ -20,8 +20,6 @@ interface State {
 }
 
 export class Conversations extends React.Component<Props, State> {
-  currentScrollOffset?: number = 0
-
   constructor(props) {
     super(props)
 
@@ -80,13 +78,10 @@ export class Conversations extends React.Component<Props, State> {
 
   render() {
     return (
-      <ScrollView
-        onScroll={event => (this.currentScrollOffset = event.nativeEvent.contentOffset.y)}
-        scrollEventThrottle={10}
-      >
+      <View>
         <LargeHeadline style={{ marginTop: 10 }}>Messages</LargeHeadline>
         {this.renderConversations()}
-      </ScrollView>
+      </View>
     )
   }
 }
